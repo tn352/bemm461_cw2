@@ -22,9 +22,6 @@ from plotly.offline import plot
 import dash
 
 
-# In[13]:
-
-
 # calculate the weighted average of the number of steps in each journey
 channel_stacks = pd.read_csv('conversion-path.csv')
 
